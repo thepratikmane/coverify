@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Download Spotify Playlist Images</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Download Spotify Playlist Images</h1>
+    <form action="/" method="POST">
+      <label for="url">Playlist URL:</label>
+      <input type="text" id="url" name="url" required>
+      <br><br>
+      <input type="submit" value="Download Images">
+    </form>
+  </div>
+
+</body>
+
+</html>
